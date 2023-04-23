@@ -10,7 +10,7 @@ array[4]= "123456789";
 Console.WriteLine($"[{String.Join("; ", array)}]");
 Console.WriteLine($"[{String.Join("; ", DellSymbols(array))}]");
 
-// -------------------------------Метод удаление из массива элементов польше 3 символов----------------------------------------
+// -------------------------------Метод удаление из массива элементов больше 3 символов----------------------------------------
 string[] DellSymbols (string[]array)
 {
     string[] newArray =new string[array.Length];

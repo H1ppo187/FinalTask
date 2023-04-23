@@ -8,7 +8,7 @@ array[2]= "Green";
 array[3]= "12";
 array[4]= "123456789";
 Console.WriteLine($"[{String.Join("; ", array)}]");
-
+Console.WriteLine($"[{String.Join("; ", DellSymbols(array))}]");
 
 // -------------------------------Метод удаление из массива элементов польше 3 символов----------------------------------------
 string[] DellSymbols (string[]array)
